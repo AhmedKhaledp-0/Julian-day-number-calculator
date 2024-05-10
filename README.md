@@ -34,6 +34,8 @@ year_date = int(input("Enter the year : "))
 
 ## Get the julian day
 
-$$ J_{o} = 367 {y} - \texttt{INT} \left\{ \frac {7 \left[ y + \texttt{INT} \left( \frac {m + 9}{12} \right) \right] }{4} \right\} + \texttt{INT} \left( \frac {275 \text{m}}{9} \right) + \text{d} + 1721013.5 $$
+$$ J_{o} = 367 {y} - \texttt{INT} \left\\{ \frac {7 \left( y + \texttt{INT} \left( \frac {m + 9}{12} \right) \right) }{4} \right\\} + \texttt{INT} \left( \frac {275 \text{m}}{9} \right) + \text{d} + 1721013.5 $$
+
 $$ \text{UT} = \text{h } + \frac{\text{m}}{60} + \frac{\text{s}}{3600} \texttt{ hour} $$
+
 $$ \text{JD} = \text{J}_o + \frac{\text{UT}}{24}$$
